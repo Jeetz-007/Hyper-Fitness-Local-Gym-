@@ -331,7 +331,7 @@
             <div class="contact-wrapper">
 
                 <!-- Contact Form -->
-                <div class="contact-form">
+                <!-- <div class="contact-form">
                     <form id="contactForm">
 
                         <label for="name">Name</label>
@@ -349,7 +349,49 @@
                         <p id="formMsg" class="form-msg"></p>
 
                     </form>
-                </div>
+                </div> -->
+
+                <div class="contact-form">
+                    <form   name="contact"
+                            method="POST"
+                            data-netlify="true"
+                            data-netlify-honeypot="bot-field" >
+
+                            <input type="hidden" name="form-name" value="contact" />
+                            <input type="hidden" name="bot-field" />
+
+                            <label for="name">Name</label>
+                            <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                            />
+
+                            <label for="phone">Phone Number</label>
+                            <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            required
+                            />
+
+                            <label for="message">Message</label>
+                            <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Type your message..."
+                            required
+                            ></textarea>
+
+                            <button type="submit" class="btn-primary submit-btn">Send Message</button>
+                            <p id="formMsg" class="form-msg"></p>
+                        </form>
+                    </div>
+
 
                 <!-- Social + Address + Map -->
                 <div class="contact-right">
