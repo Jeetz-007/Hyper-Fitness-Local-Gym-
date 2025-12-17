@@ -1,0 +1,43 @@
+/* Hero - Mobile Fix */
+@media (max-width: 600px) {
+
+  .hero {
+    height: 100vh;
+    justify-content: flex-start;
+    padding-top: 90px;
+  }
+  .hero-content {
+    transform: translateY(100px);
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .hero-content {
+    margin-top: 0px;
+    padding: 22px 18px;
+    backdrop-filter: blur(3px);   
+    background: rgba(0,0,0,0.1); 
+    border-radius: 14px;
+    max-width: 92%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .hero h1 {
+    font-size: 26px;
+    line-height: 1.25;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero-text {
+    font-size: 15px;
+  }
+
+}

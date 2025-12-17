@@ -1,0 +1,371 @@
+/* About page – Responsive Refinements */
+
+/* ---------- Tablets (768px and below) ---------- */
+@media (max-width: 768px) {
+
+    .about {
+        padding: 60px 16px;
+    }
+
+    .about-wrapper {
+        gap: 30px;
+    }
+
+    .about-content h2 {
+        font-size: 28px;
+    }
+
+    .about-content p {
+        font-size: 15px;
+    }
+
+    .about-points li {
+        font-size: 15px;
+    }
+
+    .certificate-grid img {
+        width: 160px;
+    }
+}
+
+
+/* ---------- Small Mobile Devices (600px and below) ---------- */
+@media (max-width: 600px) {
+
+    .about {
+        padding: 50px 14px;
+    }
+
+    .about-wrapper {
+        width: 100%;
+        gap: 24px;
+    }
+
+    .about-image img {
+        max-height: 260px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+    }
+
+    .about-content p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .about-points li {
+        font-size: 14px;
+    }
+
+    .certificate-grid {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .certificate-grid img {
+        width: 140px;
+    }
+
+    .cert-close {
+        font-size: 34px;
+        top: 16px;
+        right: 20px;
+    }
+}
+
+
+/* ---------- Extra Small Devices (420px and below) ---------- */
+@media (max-width: 420px) {
+
+    .about-content h2 {
+        font-size: 22px;
+    }
+
+    .about-content p {
+        font-size: 13.5px;
+    }
+
+    .certificate-grid img {
+        width: 130px;
+    }
+}
+
+/* Gallery - Responsive Refinements */
+/* ---------- Tablets (768px and below) ---------- */
+@media (max-width: 768px) {
+
+    .gallery {
+        padding: 60px 16px;
+    }
+
+    .gallery .section-title {
+        font-size: 26px;
+    }
+
+    .gallery-subtitle {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    .gallery-img {
+        height: 200px;
+    }
+
+    .gallery-btn {
+        width: 42px;
+        height: 42px;
+        font-size: 24px;
+    }
+}
+
+/* ---------- Small Mobile Devices (600px and below) ---------- */
+@media (max-width: 600px) {
+
+    .gallery {
+        padding: 50px 14px;
+    }
+
+    .gallery .section-title {
+        font-size: 24px;
+    }
+
+    .gallery-subtitle {
+        font-size: 13.5px;
+    }
+
+    .gallery-track {
+        gap: 0;
+    }
+
+    .gallery-img {
+        height: 240px;
+    }
+
+    .gallery-btn {
+        top: auto;
+        bottom: -60px;
+        transform: none;
+    }
+
+    .gallery-btn.prev {
+        left: 35%;
+    }
+
+    .gallery-btn.next {
+        right: 35%;
+    }
+}
+
+/* ---------- Extra Small Devices (420px and below) ---------- */
+@media (max-width: 420px) {
+
+    .gallery .section-title {
+        font-size: 22px;
+    }
+
+    .gallery-img {
+        height: 260px;
+    }
+
+    .gallery-btn {
+        width: 38px;
+        height: 38px;
+        font-size: 22px;
+    }
+}
+
+
+/* Whatsapp Button – Responsive */
+/* ---------- Tablets (768px and below) ---------- */
+@media (max-width: 768px) {
+
+    .wa-sticky {
+        width: 52px;
+        height: 52px;
+        font-size: 24px;
+        right: 16px;
+        bottom: 20px;
+    }
+}
+
+/* ---------- Mobile Devices (600px and below) ---------- */
+@media (max-width: 600px) {
+
+    .wa-sticky {
+        width: 50px;
+        height: 50px;
+        font-size: 23px;
+        right: 14px;
+        bottom: 70px;
+    }
+}
+
+/* ---------- Small Mobile Devices (420px and below) ---------- */
+@media (max-width: 420px) {
+
+    .wa-sticky {
+        width: 46px;
+        height: 46px;
+        font-size: 21px;
+        right: 12px;
+        bottom: 66px;
+    }
+}
+
+/* Index.css – Responsive Refinements */
+/* ---------- Tablets (900px and below) ---------- */
+@media (max-width: 900px) {
+  .hero {
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero h2 {
+    font-size: 20px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .service-title {
+    font-size: 18px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+
+  .review-card {
+    min-height: 150px;
+  }
+}
+
+
+/* ---------- Mobile Devices (600px and below) ---------- */
+@media (max-width: 600px) {
+
+  .hero {
+    padding: 70px 16px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .hero-text {
+    font-size: 15px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  button {
+    width: 100%;
+    max-width: 260px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+
+  .service-card {
+    padding: 18px;
+  }
+
+  .review-name {
+    font-size: 16px;
+  }
+
+  .review-text {
+    font-size: 14px;
+  }
+
+  .slider-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .contact-heading {
+    font-size: 26px;
+    margin-bottom: 26px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .social {
+    padding: 12px;
+    font-size: 14.5px;
+  }
+
+  .map-box iframe {
+    height: 220px;
+  }
+
+  .site-footer {
+    padding-top: 20px;
+  }
+
+  .footer-inner {
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+
+/* ---------- Small Mobile Devices (420px and below) ---------- */
+@media (max-width: 420px) {
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 11px 16px;
+  }
+
+  .service-title {
+    font-size: 17px;
+  }
+
+  .service-details p {
+    font-size: 14px;
+  }
+
+  .contact-heading {
+    font-size: 24px;
+  }
+  
+  .footer-bottom small {
+    font-size: 13px;
+  }
+}

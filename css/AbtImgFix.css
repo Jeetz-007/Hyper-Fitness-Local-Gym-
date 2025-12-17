@@ -1,0 +1,64 @@
+/* About Image - mobile fix */
+@media (max-width: 600px) {
+
+    .about-image img {
+        height: auto;  
+        max-height: 420px; 
+        object-fit: contain; 
+        background-color: #000; 
+    }
+}
+
+/* Tablets & foldables */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .about-wrapper {
+        align-items: flex-start;
+    }
+
+    .about-image img {
+        height: auto;
+        max-height: 420px;
+        object-fit: contain;
+        background: #000;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about-image img {
+        height: auto;
+        max-height: 360px;
+        object-fit: contain;
+    }
+
+}
+
+/* Tablet Layout Fix (iPad, Fold) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .about-wrapper {
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about-image {
+    flex: 0.9;
+  }
+
+  .about-image img {
+    max-height: 420px;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .about-content {
+    flex: 1.1;
+  }
+
+  .about-content p {
+    font-size: 15px;
+  }
+
+}
